@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- INTEGRACIÓN DE BOOTSTRAP -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualizador RGB</title>
+    <link rel="icon" type="image/png" href="assets/img/icono.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #e3e3e3;
+        }
+        .profile-card {
+            background-color: #f3f3f3;
+            border-radius: 20px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .profile-card img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover; /* Para evitar distorsión */
+        }
+        .profile-card h5 {
+            font-weight: bold;
+        }
+        .social-images img {
+            margin: 0 5px;
+            width: 100px; /* Ajustado para mejor visualización */
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row mt-4">
+            <div class="col-md-12 bg-primary text-white text-center p-3">
+                <h1><b>Profile Card Design</b></h1>
+            </div>
+        </div>
+
+        <div class="row justify-content-center mt-4">
+            <!-- Tarjeta 1 -->
+            <div class="col-md-3 profile-card text-center m-2">
+                <img src="assets/img/usuario1.jpg" alt="Person One" onerror="this.onerror=null; this.src='https://via.placeholder.com/150';">
+                <h5>Person One</h5>
+                <p>Esta es la persona número uno para revisar la información de la tarjeta</p>
+                <div class="social-images">
+                    <img src="assets/img/redes.jpg" alt="Social Media" onerror="this.onerror=null; this.src='https://via.placeholder.com/100x60';">
+                </div>
+            </div>
+
+            <!-- Tarjeta 2 -->
+            <div class="col-md-3 profile-card text-center m-2">
+                <img src="assets/img/usuario2.jpg" alt="Person Two" onerror="this.onerror=null; this.src='https://via.placeholder.com/150';">
+                <h5>Person Two</h5>
+                <p>Esta es la persona número dos para revisar la información de la tarjeta</p>
+                <div class="social-images">
+                    <img src="assets/img/redes.jpg" alt="Social Media" onerror="this.onerror=null; this.src='https://via.placeholder.com/100x60';">
+                </div>
+            </div>
+
+            <!-- Tarjeta 3 -->
+            <div class="col-md-3 profile-card text-center m-2">
+                <img src="assets/img/usuario3.jpg" alt="Person Three" onerror="this.onerror=null; this.src='https://via.placeholder.com/150';">
+                <h5>Person Three</h5>
+                <p>Esta es la persona número tres para revisar la información de la tarjeta</p>
+                <div class="social-images">
+                    <img src="assets/img/redes.jpg" alt="Social Media" onerror="this.onerror=null; this.src='https://via.placeholder.com/100x60';">
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-md-12 bg-secondary text-white text-center p-3">
+                <h2>HTML CSS BOOTSTRAP</h2>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
